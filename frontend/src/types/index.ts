@@ -10,6 +10,8 @@ export interface DesignParams {
   opacity: number
   bgColor: string
   palette: string[]
+  /** 当前颜色主题 id，用于导出文件命名 */
+  themeId: string
   width: number
   height: number
 }
